@@ -1,0 +1,103 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Measures",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            },
+            "conditions": [
+                {
+                    "measure": {
+                        "min": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "objects": {
+
+        "dataPoint": {
+            "displayName": "Data Colors",
+             "properties": {
+                "fill": {
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+             }
+        },
+
+        "colorBlind": {
+            "displayName": "Color Blindness by OKViz",
+            "properties": {
+                "vision": {
+                    "displayName" : "Vision",
+                    "type": {
+                         "enumeration": [
+                            {
+                                "displayName": "Normal",
+                                "value": "Normal"
+                            },
+                             {
+                                "displayName": "Protanopia",
+                                "value": "Protanopia"
+                            },
+                             {
+                                "displayName": "Protanomaly",
+                                "value": "Protanomaly"
+                            },
+                             {
+                                "displayName": "Deuteranopia",
+                                "value": "Deuteranopia"
+                            },
+                             {
+                                "displayName": "Deuteranomaly",
+                                "value": "Deuteranomaly"
+                            },
+                            {
+                                "displayName": "Tritanopia",
+                                "value": "Tritanopia"
+                            },
+                            {
+                                "displayName": "Tritanomaly",
+                                "value": "Tritanomaly"
+                            },
+                            {
+                                "displayName": "Achromatopsia",
+                                "value": "Achromatopsia"
+                            },
+                            {
+                                "displayName": "Achromatomaly",
+                                "value": "Achromatomaly"
+                            },
+                            {
+                                "displayName": "Low Contrast",
+                                "value": "LowContrast"
+                            }
+                         ]
+                     }
+                }
+            }
+        }
+    },
+    "suppressDefaultTitle": true
+}
