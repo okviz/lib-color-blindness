@@ -18,7 +18,11 @@ module powerbi.extensibility.visual {
             element.selectAll('#visionFilter').remove();
             element.append('svg')
                 .attr('id', 'visionFilter')
-                .style('position', 'absolute')
+                .style({
+                    'position': 'absolute',
+                    'width': 0,
+                    'height': 0
+                })
                 .html(visionDefs);
 
             element.style({
