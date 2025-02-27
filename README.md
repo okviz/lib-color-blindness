@@ -1,6 +1,6 @@
 # Color Blindness for Power BI
 
-Color Blindness by OKViz is a tiny library to use in Power BI custom visuals.
+Color Blindness by OKVIZ is a tiny library to use in Power BI custom visuals.
 It allows to apply different color visions to any visual that implement it.
 
 ![alt tag](color-blindness.png)
@@ -143,6 +143,6 @@ Note that if you never developed a custom visual before, you should read the Mic
 
 ### Copyrights
 
-Copyright (c) 2016-2017 OKViz - trademark of SQLBI Corp.
+Copyright (c) OKVIZ Corp.
 
 See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
