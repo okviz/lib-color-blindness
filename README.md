@@ -141,7 +141,7 @@ Note that if you never developed a custom visual before, you should read the Mic
 9.	You’re done, enjoy!
 
 
-### Copyrights
+### Copyright
 
 Copyright (c) OKVIZ Corp.
 
